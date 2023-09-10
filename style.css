@@ -1,0 +1,108 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html , body{
+    width: 100%;
+    height: 100%;
+}
+/* body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    
+} */
+.page1{
+    width: 100%;
+    height: 100%;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    position: relative;
+   
+}
+.container {
+    width: 50%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 20px; */
+    background-color: rgba(0, 255, 255, 0.575);
+    border-radius: 10px;
+    position: relative;
+}
+.first{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    padding: 6% 3%;
+    /* background-color: gold; */
+}
+h1 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 5px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 span{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+button {
+    padding: 20px 15px;
+    /* font-size: 16px; */
+    background-color: mediumseagreen;
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-weight: 700;
+   
+}
+.second{
+    width: 95%;
+    height: 25%;
+    /* background-color: gold; */
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    /* padding: 0 3%; */
+}
+.num{
+    background-color: rgb(62, 187, 62);
+    height: 100%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#person-info{
+    /* background-color: magenta; */
+    width: 100%;
+    height: 100%;
+
+}
+.name-div{
+    width: 100%;
+    height: 50%;
+    background-color: darkgrey;
+    padding: 2% 2%;
+}
+.location-div{
+    width: 100%;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.774);
+    padding: 2% 2%;
+}
+
